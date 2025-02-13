@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>                                                           <!--HEAD/METADATA-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="https://i.ibb.co/Twk2X78/IMG-7960.gif">
+<title>blue's tiny planet</title>
+                                                              <!-- CSS: CASCADING STYLE SHEETS -->
+<style>
+html{
+/* fonts + text */
+  font-family: MS PGOTHIC;
+  font-size: 14.5px;
+  letter-spacing: 1px;
+  line-height: 1.125em;
+  text-align: center;
+
+/* backgrounds */
+  background: url("https://i.pinimg.com/736x/52/09/79/520979d5322fc0e3017f56af2747280a.jpg");
+  background-size: 20%;
+
+/* extra setup */
+  cursor: url("https://64.media.tumblr.com/tumblr_m2wivg9oxq1qfamg6.gif"), auto !important;
+}
+                                                              /* SCROLLBARS DESIGN START !! */
+a:hover{
+  color: steelblue;
+  letter-spacing: 2.5px;
+}
+  
+::-webkit-scrollbar{
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: pink; 
+}
+     
+::-webkit-scrollbar-thumb{
+  background: #a1ceed;
+}
+                                                              /* SCROLLBARS START !! */
+/* vertical scrollbars */   
+#Vscrollbar1{
+  max-height: 280px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+    
+#Vscrollbar2{
+  max-height: 194px; 
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+    
+#Vscrollbar3{
+  max-height: 110px; 
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#Vscrollbar4{
+  max-height: 16em;
+  overflow-y: scroll;
+}
+    
+/* horizontal scrollbars */   
+
+                                                              /* MARQUEES START !! */
+.marquee1, .marquee2{
+  overflow: hidden;
+  padding-top: 5px;
+  white-space: nowrap;
+}
+
+.marquee1 span{
+  animation: marquee1 20s linear infinite alternate;
+  display: inline-block;
+  overflow: hidden;
+}
+
+@keyframes marquee1{
+  100%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+                                                              /* CONTAINERS START !! */
+.border1{
+  display: hidden;
+  margin: 0 auto;
+  width: 68em;
+}
+
+.container1{
+  border-radius: 5px;
+  border: #e880b6 0.25em groove;
+  margin: 0 auto;
+  width: 100%;
+}
+    
+  .container2{
+    background-size: 5%;
+    border: pink 0.25em groove;
+    width: 99.4%;
+  }
+    
+    #header{
+      align-items: center;
+      background-image: url("https://i.pinimg.com/originals/d3/6e/57/d36e573bf7c5317f3c3537ad5b908a8b.gif");
+      background-size: 100% 100%;
+      border: pink 0.25em groove;
+      border-radius: 0.25em 0.25em 0em 0em;
+      display: grid;
+      height: 12em;
+    }
+    
+    .box1{
+      background-color: lightpink;
+      border: black 1px solid;
+      margin: 0 auto;
+      width: 550px;
+    }
+    
+    .box2{
+      background-color: lightpink;
+      display: flex;
+      margin: 0 auto;
+      width: 550px;
+    }
+    
+    .sidebar{
+      background-image: url("https://bettysgraphics.neocities.org/images/backgrounds/pattern%20608.gif");
+      border: black 1px solid;
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+      width: 15em;
+      height: 62em;
+    }
+    
+      .sidebar-left{
+        float: left;
+      }
+      
+      .sidebar-right{
+        float: right;
+      }
+    
+      #nav-buttons{
+        background-image: linear-gradient(#f1faed, #d4f2bd, #c5edab, #c5edab);
+        border: black 1px solid;
+        border-radius: 15px;
+        margin: 0.25em;
+      }
+      
+      #nav-buttons2{
+        background-image: linear-gradient(#d4effa, #a1ceed, lightblue, #d4effa);
+        border: black 1px solid;
+        margin-bottom: 12px;
+      }
+      
+      #nav-buttons3{
+        background-image: linear-gradient(#d4effa, #a1ceed, lightblue, #d4effa);
+        border: black 1px solid;
+      }
+    
+      #sidebox{
+        background-color: #fffef5;
+        border: black 1px solid;
+        margin: 0.25em;
+      }
+    
+      #sidebox3{
+        background: url("https://i.pinimg.com/736x/6d/c3/9a/6dc39a636ecf899afe46aa1014397f86.jpg");
+        background-size: 150px;
+      }
+    
+      #sidebox4{
+        background-color: #fffef5;
+        border: black 1px solid;
+        margin: 4px;
+        padding: 4px 4px 0px 4px;
+      }
+    
+    #one{
+      background-color: #fffef5;
+      border: black 1px solid;
+      margin: 4px 4px 0px 4px;
+      padding-left: 10px;
+    }
+      
+    #two{
+      border: black 1px solid;
+      float: left;
+      margin: 4px 0px 0px 4px;
+    }
+      
+    #three{
+      background-color: #fffef5;
+      border: black 1px solid;
+      margin: 0 auto;
+      margin-top: 4px;
+      padding-top: 4px;
+      width: 540px;
+    }
+      
+    #four{
+      border: pink 3px groove;
+      border-radius: 5px;
+      margin: 3px 3px 11px 3px;
+      padding: 8px 5px 0px 5px;
+      text-align: left;
+      max-height: 15em;
+      overflow: scroll;
+    }
+    
+    #header-text{
+      color: white;
+      font-size: 56px;
+      text-align: left; 
+      text-shadow: -1px -1px 0 #e880b6, 1px -1px 0 #e880b6, -1px 1px 0 #e880b6, 1px 1px 0 #e880b6;
+    }
+    
+    #footer{
+      background-color: #fffef5;
+      border: pink 0.25em groove;
+      border-radius: 2px;
+    }
+    
+</style> 
+                                                              <!-- JAVSCRIPT --> 
+<script>
+  if(sessionStorage.getItem('showAlert') != "false"){
+    alert("hey there !! before you enter this site, i'd just like to say there are many moving graphics + bright colors. viewer descretion is advised. BEST VIEWED ON A COMPUTER! sorry the layout might look strange due to device settings, im trying my best to improve this !");
+    sessionStorage.setItem('showAlert', "false");
+    }
+</script>
+                                                              <!-- BODY/HTML: HYPERTEXT MARKUP LANGUAGE -->
+<body>
+<div class="border1">
+<div class="container1">
+
+      <div id="header">
+      <div id="header-text"><p>&ensp; blue's digital room ♪</div>
+      </div>
+    
+    
+    <div class="marquee1"><span>
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/36e74ce8-5fbe-4d01-9871-6ab5c2755e16/dbaeg1h-3b8324a8-4f36-4be2-b7ba-3d49c4b33679.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM2ZTc0Y2U4LTVmYmUtNGQwMS05ODcxLTZhYjVjMjc1NWUxNlwvZGJhZWcxaC0zYjgzMjRhOC00ZjM2LTRiZTItYjdiYS0zZDQ5YzRiMzM2NzkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rzSDQtmWQliPlyEYqaid4PPHae4HOyvTFTHDB65-gNk">
+      <img src="https://y2k.neocities.org/stamps/tumblr_pblryrISUf1xzybrpo5_100.png">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dedfaa9e-2aac-4d3f-af3c-8b7fcfb26cd9/d2gqeg3-900b109b-a615-41ae-a03c-d2c2c0c7d888.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RlZGZhYTllLTJhYWMtNGQzZi1hZjNjLThiN2ZjZmIyNmNkOVwvZDJncWVnMy05MDBiMTA5Yi1hNjE1LTQxYWUtYTAzYy1kMmMyYzBjN2Q4ODguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0wHcz6s4uK9NFwOjV6sfQcJXhJXQ6dYAFmWJV8Ee5Yk">
+      <img src="https://i.postimg.cc/rwLDx7yP/b7e41bbc.png">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2e5f1c88-2b10-4b08-8533-6949d5797130/dft6own-28ffa68c-1435-491b-8127-a66aa25adb0a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJlNWYxYzg4LTJiMTAtNGIwOC04NTMzLTY5NDlkNTc5NzEzMFwvZGZ0Nm93bi0yOGZmYTY4Yy0xNDM1LTQ5MWItODEyNy1hNjZhYTI1YWRiMGEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EOfuxfIZKqr5yQdayn0Jd5TmTzCDnfgsjvii_CNBhRs">
+      <img src="https://64.media.tumblr.com/3ecc8dc53054e84b69a2c9955c6ba823/f1d05a087ae1bd96-73/s100x200/569a7c47e0a3fe123e0067d6d28c816a39366716.gifv">
+      <img src="https://stampcollectco.neocities.org/ddqchb6-6f44ded3-5cd9-4119-a017-124ccb2accc5.png">
+      <img src="https://stampcollectco.neocities.org/d5k6h0y-d32fc866-dc9e-4ace-94ec-f27db25b5070.png">
+      <img src="https://i.postimg.cc/xjJ39ksy/M70FPyt.gif">
+      <img src="https://y2k.neocities.org/stamps2/tumblr_oipux5MhkT1ugjf0to9_r1_100.png">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f9808b8-6a16-459a-9d5c-c304ebebdbd8/d683ctw-651101d2-754d-438c-868d-78739466792f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmOTgwOGI4LTZhMTYtNDU5YS05ZDVjLWMzMDRlYmViZGJkOFwvZDY4M2N0dy02NTExMDFkMi03NTRkLTQzOGMtODY4ZC03ODczOTQ2Njc5MmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Nu99d7tlC7dB-GA9XAuMeyteJ0hg-N4aN8erNdzSsyw">
+      <img src="https://64.media.tumblr.com/7be01a02120e1951282a0a3bfc3cb7da/e3653219d1396e0c-87/s100x200/aa4e8e92fc9935adc8f8b267510d15c14cc30643.pnj">
+      <img src="https://nimravidae.neocities.org/images/stamps/stamp_yellowfang.gif">
+      <img src="https://kanto.neocities.org/stamps2/dnshatter.gif">
+      <img src="https://pixelsafari.neocities.org/stamps/more/cutethings.gif">
+      <img src="https://i.postimg.cc/63HG6wk7/image337.jpg" height="56px" width="99px">
+      <img src="https://64.media.tumblr.com/cebe114b7566d34b3127041a2b019acc/tumblr_inline_rbjp70UntJ1vefsve_500.gif">
+      <img src="https://confettiguts.gay/graphics/graphicsimg/vocaloid.gif" height="56px" width="99px">
+      </span></div>
+      
+      <div class="container2">
+      <marquee>welcome to blueberrymuffinss.neocities.org, my home and settlement on the interweb <3 hosted on neocities as of 2024 ... continuing until forever !! || welcome to blueberrymuffinss.neocities.org, my home and settlement on the interweb <3 hosted on neocities as of 2024 ... continuing until forever !! || welcome to blueberrymuffinss.neocities.org, my home and settlement on the interweb <3 hosted on neocities as of 2024 ... continuing until forever !!</marquee>
+      </div>
+    
+    <div class="container2" style="height:869px">
+      <div class="sidebar-left">
+      <div class="sidebar">
+        <div id="sidebox">
+          <div id="nav-buttons3">welcome !</div>
+          <div id="Vscrollbar1">
+            <p>
+            <img src="https://64.media.tumblr.com/cfb967961aa4d230be0f60106362a03c/b7423d20cb0ce4e4-97/s250x400/604856445e124c2e23f016eb1f1b0254cc203788.gifv">
+                <p style="font-size:14.5px">hello, i'm blue; as well as the webmaster here !</p>
+                <p><img src="https://i.postimg.cc/3Nj9nsbM/image89.png" style="height:12px;"></p>
+                <p style="font-size:14.5px">i'll try to update whenever i can so i hope you find this place interesting !</p>
+                <p><img src="https://i.postimg.cc/3Nj9nsbM/image89.png" style="height:12px;"></p>
+                <p style="font-size:14.5px">if you would like to learn more about me, visit <a href="https://blueberrymuffinss.neocities.org/aboutme"><br>about me</a></p>
+                <p>
+                <img src="https://i.imgur.com/XtDoHsd.png" style="float:left; width:85px; margin-left: 5px">
+                <img src="https://i.postimg.cc/NjRM1pFT/FvSLVNv.png" style="float:right; width:85px; margin-right: 5px">
+                <img src="https://i.postimg.cc/ZqB22Mks/gTTW2gA.png" style="float: left; width:85px; margin-left: 5px">
+                <img src="https://i.postimg.cc/N0KSZf2w/oaolHwW.png" style="float: right; width:85px; margin-right: 5px">
+                <br>
+        </div>
+        </div>
+        
+      <div id="sidebox">
+      <div id="nav-buttons2">calender ^_^</div>
+      <div id="hscrollbar1">
+      </div>
+      <iframe src="https://calendar.sakura.ne.jp/blog_cal.html" scrolling="no" style="background-color:#fbe;padding:0px;border:0;margin:0px;overflow:hidden;width:171px;height:184px;overflow:hidden;"></iframe>
+      </div>
+    
+          <div id="sidebox">
+      <div id="nav-buttons2">website stats</div>
+      <span style="color:#e880b6;">hosted on neocities since:</span>
+      <br><img src="https://blumchen.cafe/Graphics/fav2.gif">24/08/12 <img src="https://blumchen.cafe/Graphics/fav2.gif">   
+      <br>
+      <span style="color:#e880b6;"><br>last updated:</span>
+      <br><img src="https://blumchen.cafe/Graphics/fav2.gif">25/01/12 <img src="https://blumchen.cafe/Graphics/fav2.gif"><p>
+      </div>
+      
+        <div id="sidebox">
+          <div id="nav-buttons2">webring corner</div>
+          <div id="Hscrollbar1">
+          <div id="smallvocaring"><script src="https://webring.adilene.net/smallwebring.js"></script></div>
+          </div>
+        </div> 
+    </div>
+    </div>
+    
+    <div class="sidebar-right"> 
+    <div class="sidebar">
+        <div id="sidebox">
+          <div id="nav-buttons2">navigation</div>
+              <div id="nav-buttons"><a href="https://blueberrymuffinss.neocities.org/">homepage</a></div>
+              <div id="nav-buttons"><a href="https://blueberrymuffinss.neocities.org/aboutme">about me</a></div>
+              <div id="nav-buttons"><a href="">blog</a></div>
+              <div id="nav-buttons"><a href="">e-shrines</a></div>
+              <div id="nav-buttons"><a href="">artwork</a></div>
+              <div id="nav-buttons"><a href="">music</a></div>
+              <div id="nav-buttons"><a href="">archives</a></div>
+              <div id="nav-buttons"><a href="">credits + info</a></div>
+        </div>
+    
+        <div id="sidebox">
+          <div id="nav-buttons3">to-do list</div>
+          <div id="sidebox3">
+          <div id="Vscrollbar2">
+            <p><b>sitely</b>
+              <br><img src="https://yokai.crd.co/assets/images/image12.gif?v=b4df531c">
+              <br><img src="https://decohoard.carrd.co/assets/images/gallery127/7bfde6a9.gif?v=e0827b7e" height="9px"> remake about me
+              <br><img src="https://decohoard.carrd.co/assets/images/gallery127/7bfde6a9.gif?v=e0827b7e" height="9px"> make music page
+              <br><img src="https://decohoard.carrd.co/assets/images/gallery127/7bfde6a9.gif?v=e0827b7e" height="9px"> start learning js
+              <br><img src="https://decohoard.carrd.co/assets/images/gallery127/7bfde6a9.gif?v=e0827b7e" height="9px"> make creds/info page
+              <br><img src="https://decohoard.carrd.co/assets/images/gallery127/7bfde6a9.gif?v=e0827b7e" height="9px"> add stuff to webshrine page</p>
+              <img src="https://64.media.tumblr.com/64d94ad5dee85794947c687628f3a812/80109a4e0b9f2717-57/s250x400/9a45f39ac2bb6845d44c677f642037a1a7aa1d8a.pnj" width="280px">
+            <p><b>offsite</b>
+              <br><img src="https://yokai.crd.co/assets/images/image12.gif?v=b4df531c">
+              <br><img src="https://decohoard.carrd.co/assets/images/gallery127/7bfde6a9.gif?v=e0827b7e" height="9px"> reorganize my room
+              <br><img src="https://decohoard.carrd.co/assets/images/gallery127/7bfde6a9.gif?v=e0827b7e" height="9px"> watch evangelion
+              </p>
+          </div>
+          </div>
+        </div>
+    
+         <div id="sidebox">
+          <div id="nav-buttons2">webmaster status</div>
+            <div id="four">
+              <img src="https://dividers.crd.co/assets/images/gallery10/9b7679c2.gif?v=05d33f91" width="180px">
+              <br>
+              <span style="font-size:14.5px; color:#e880b6;">
+              <br>feeling:</span><a href="https://www.imood.com/users/blueberry_muffinss"><img src="https://moods.imood.com/display/uname-blueberry_muffinss/fg-000000/bg-FFFFFF/imood.gif" alt="The current mood of blueberry_muffinss at www.imood.com" border="0"></a>
+              
+              <br><span style="font-size:14.5px; color:#e880b6;">
+              listening to: </span><span style="font-size:14.5px">
+              anything - adrianne lenker</span>
+              
+              <br><span style="font-size:14.5px; color:#e880b6;">
+              reading: </span><span style="font-size:14.5px">hunter x hunter</span>
+              
+              <br><span style="font-size:14.5px; color:#e880b6;">
+              status: </span><span style="font-size:14.5px">dw im still alive guys - finishing schoolwork probably</span><p>
+              
+              <img src="https://dividers.crd.co/assets/images/gallery10/9b7679c2.gif?v=05d33f91" width="180px">
+            </div>
+          </div>
+          
+          <div id="sidebox">
+          <div id="nav-buttons2">my button !!</div>
+<img src="https://blueberrymuffinss.neocities.org/button1.png">
+  <span font-family="ms pgothic"><textarea id="blues button" name="blueberry_muffinss" rows="5" cols="20" style="font-family: ms pgothic"><a href="https://blueberrymuffinss.neocities.org"><img src="https://blueberrymuffinss.neocities.org/button1.png"></textarea></span>
+            </div>
+        </div>
+      </div>
+
+    <div class="box1">
+      <div id="one">
+      <div id="Vscrollbar1">
+        <h3><img src="https://yokai.crd.co/assets/images/gallery03/4246c620.gif?v=b4df531c"> welcome to my website <i>~ !</i>
+        <img src="https://yokai.crd.co/assets/images/gallery03/58ed5769.gif?v=b4df531c"></h3>
+        <img src="https://pixelsafari.neocities.org/dividers/bluestarribbon.png" height="32px"> <img src="https://pixelsafari.neocities.org/dividers/bluestarribbon.png" height="32px">
+        <p>hello random person !<img src="https://i.ibb.co/vhL0CF8/IMG-5769.gif" style="float:left"><br> i am really glad we found each other here ^_^&ensp;this website is my little settlement on the corner of the web, and my happy place :3&ensp; i made this space in dedication to my hobbies, and things i like.&ensp; feel free to take a look around !
+        <p>so, here's a little about myself.&ensp; you could refer to me as blue, and yes, i do love the colour blue ^^&ensp; i am pretty much of an introvert, i like staying home -- i enjoy indie/rock/jpop music.&ensp; i am also interested in drawing and coding/web design !</p>
+        <p>i am not in too many fandoms, but some of them im in include omori, yume nikki, serial experiments lain, deathnote, MLP ... (might add more)<p>
+         <img src="https://pixelsafari.neocities.org/dividers/bluestarribbon.png" height="32px"> <img src="https://pixelsafari.neocities.org/dividers/bluestarribbon.png" height="32px">
+        <p>anyways, here are some really cool sites !!</p>
+      </div>
+      </div>
+    
+    <div id="three">
+    <marquee behavior="alternate" scrollamount="4">
+      <span>
+      <a href="https://swirl.neocities.org/"><img src="https://swirl.neocities.org//swirlbutton_01.gif"></a>
+      <a href="https://nyanfiles.neocities.org/"><img src="https://files.catbox.moe/jkfu66.gif" width="88" height="31"></a>
+      <a href="https://pinkdogs-palace.neocities.org/"><img src="https://files.catbox.moe/fkdzut.gif"></a>
+      <a href="https://gothiclolita.neocities.org/"><img src="https://gothiclolita.neocities.org/gothiclolita.png" width="88px"></a>
+      <a href="https://cementgarden.neocities.org/"><img src="https://cementgarden.neocities.org/images/button/cementgarden7.gif"></a>
+      <a href="https://nukocities.neocities.org/"><img src="https://nukocities.neocities.org/img/nukocities.gif"></a>  
+      <a href="https://angelgarden.neocities.org/"><img src="https://angelgarden.neocities.org/imgggg/button2.png"></a>
+      <a href="https://dokode.moe/indexv3"><img src="https://blueberrymuffinss.neocities.org/dokodemobutton3.gif"></a>
+      </span>
+    </marquee>
+    </div>
+    
+    <div class="box2">
+      <div id="two">
+        <img src="https://64.media.tumblr.com/f53e7130ecd46d6ab188f65e903d40af/36bcfe83090e705c-86/s1280x1920/a041122aa119f006cd45d8ae5dafe3db30e62b5d.gifv" width="270em;" height="190em;"></div>  
+      <div id="one">
+      <div id="Vscrollbar2">
+        <h3>recent updates:</h3>
+          <img src="https://dividers.crd.co/assets/images/gallery10/e411b3bf.png?v=05d33f91" width="240px">
+          <p>25/01/05: new year ,, new design !! i spent to last few days redesigning the homepage :3</p>
+          <p>24/12/31: webring section, + new cursor. as well, i changed the scrollbar colour. </p>
+          <p>24/12/30: aa i tried to revamp the layout for ths site, gosh its taking all day n its still not done yet D: </p>
+          <p>24/12/08: new background !!1 sorry updates r slow ,, im not lazy guys trust</p>
+          <p>24/12/01: im back !! tried to fix broken links on the art page. i hope they would stay this time</p>
+          <p>24/11/09: i worked on reformatting the about me page, and i think im really happy with it. as well, i added some new dividers and made some minor changes to the other pages.</p>
+          <p>24/10/24: today i made some decorations, as you may see on the top left + right corners. gonna try to update as much as i can !!</p>
+          <img src="https://dividers.crd.co/assets/images/gallery10/e411b3bf.png?v=05d33f91" width="240px"><p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="box2"  style="margin-bottom:4px">
+    <div id="two">
+    <iframe width="300em" height="320em" src="https://gifypet.neocities.org/pet/pet.html?name=miku :3&dob=1735749358&gender=f&element=Water&pet=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2Fa790a33f-1748-4d70-9257-90195c45401a%2Fd74251v-e31155d6-f160-4cc4-aa50-0b0a07726f1b.gif%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E3OTBhMzNmLTE3NDgtNGQ3MC05MjU3LTkwMTk1YzQ1NDAxYVwvZDc0MjUxdi1lMzExNTVkNi1mMTYwLTRjYzQtYWE1MC0wYjBhMDc3MjZmMWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EYt8nnBe81kOriR5uWKbmNetryXADjtDY7h4MxFt-Dc&map=tree.jpg&background=https%3A%2F%2F66.media.tumblr.com%2F52de46fba16246bdb8a8dd8562b9108a%2Ftumblr_mf70opNl1y1rhuas2o3_250.gif&tablecolor=%23583de1&textcolor=%233f1fe0" style="border:none;"></iframe>
+    </div>
+    
+    <div id="one">
+        <h3>featured page !!</h3>
+        <p>text text text text text text text text text </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+    <div class="marquee1"><span>
+      <img src="https://cyber.dabamos.de/88x31/notperfect.gif">
+      <img src="https://cyber.dabamos.de/88x31/webpassion.gif">
+      <img src="https://plasticdino.neocities.org/buttons/queer.png">
+      <img src="https://plasticdino.neocities.org/buttons/miku3.gif">
+      <img src="https://plasticdino.neocities.org/buttons/not.gif">
+      <img src="https://i.postimg.cc/d3dXCCZT/IMG-1491.gif">
+      <img src="https://plasticdino.neocities.org/buttons/rainbowcafe.gif">
+      <img src="https://cyber.dabamos.de/88x31/sweet_homepage.gif">
+      <img src="https://plasticdino.neocities.org/buttons/candyshop.gif">
+      <img src="https://plasticdino.neocities.org/buttons/foreveronline.gif">
+      <img src="https://plasticdino.neocities.org/buttons/l.jpeg">
+      <img src="https://plasticdino.neocities.org/buttons/tetoteteto.gif">
+      <img src="https://adriansblinkiecollection.neocities.org/buttons/a1.gif">
+      <img src="https://pixelbank.neocities.org/buttons/e0c2759b.gif">
+      <img src="https://i.imgur.com/PfbykXz.jpg" width="88" height="31">
+      <img src="https://64.media.tumblr.com/55930a4374b71e2157afeca066ed9868/57ca82d8afe43e10-fe/s100x200/83a91e23cda18df49fa476ff7e5ab01ac3dfc528.gifv">
+      <img src="https://64.media.tumblr.com/7523f0b8640ece0e43b6ab7a791b4d89/4a155fc44f02bed1-1a/s100x200/81b5d58f19426f655c46b3020c3f76b91c397506.gifv">
+      <img src="https://capstasher.neocities.org/88x31Buttons/caramelldansen.gif">
+      <img src="https://capstasher.neocities.org/88x31Buttons/StarButton.gif">
+      <img src="https://plasticdino.neocities.org/buttons/sleepy.gif">
+      <img src="https://64.media.tumblr.com/c1be59b06eb5dbf9de863c879b4d3fad/ffd798156e604f85-19/s100x200/bf46e13505aec5d97f2a6f93d6fae4ca8cd056f5.gifv">
+      <img src="https://64.media.tumblr.com/00c34e77e29f5a963711fa987dde6282/a61f8261ff9c0cfd-32/s100x200/3e97074c2afaa15613deb26b5cbc34f31002cf16.gifv">
+    </span></div>
+    
+    <div id="footer"><p>blueberry_muffinss 2024</p></div>
+    </div>
+    </div>
+  </body>
+</html>
